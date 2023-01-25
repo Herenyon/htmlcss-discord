@@ -38,6 +38,7 @@
         background-repeat: no-repeat;
  }
 
+ 
  .primario i {
 
      margin-right: 5px;
@@ -149,7 +150,7 @@
 
  .btn.secondario {
 
-     background-color: #23272a;
+     background-color: #5865f2;
      color: white;
  }
 
@@ -250,7 +251,7 @@
 
  /* caratteristiche sezione con box del footer  */
  .sezione-footer.footer-top {
-
+    
      width: 100%;
      height: 800px;
  }
@@ -296,5 +297,37 @@
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
+
+ }
+
+.big-box-footer {
+    flex-grow: 2;
+    height: 70%;
+    
+    text-align: center;
+    padding-left: 0;
+    text-align: left;
+    color: #5865f2;
+   
+}
+.big-box-footer ul {
+    
+    color: white;
+    gap: 10px;
+
+}
+
+.big-box-footer div{
+    display: inline-block;
+    color: white;
+}
+ #ita-img{
+    margin-right: 5px;
+    width: 30px;
+ }
+
+ .contatti{
+
+    
 
  }
