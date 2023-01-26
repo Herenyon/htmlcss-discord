@@ -270,22 +270,20 @@
      align-items: center;
 
      width: 100%;
-     background-color: aqua;
+    
      height: 50%;
+     
+
+     border-top: 2px solid #5865f2;
 
  }
 
- .footer-logo {
-     border: 1px dashed black;
-     background-color: pink;
+.footer-logo{
+    line-height: 100%;
+    display: inline-block;
+}
 
- }
-
- .footer-btn {
-
-     border: 1px dashed black;
-     background-color: pink;
- }
+ 
 
  .bigger-box p{
 
@@ -301,9 +299,10 @@
  }
 
 .big-box-footer {
-    flex-grow: 2;
-    height: 70%;
     
+    flex-grow: 3;
+    height: 70%;
+    line-height: 50px;
     text-align: center;
     padding-left: 0;
     text-align: left;
@@ -326,8 +325,29 @@
     width: 30px;
  }
 
- .contatti{
-
+.contatti li:first-child{
+    color: #5865f2;
+    pointer-events: none;
+   font-size: large;
     
+}
+     
+
+ 
+ .contatti{
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    font-size: medium;
+
+
+ }
+
+
+ .small-box-footer{
+
+        
+        flex-grow: 2;
+        height: 70%;
 
  }
